@@ -23,7 +23,7 @@ nav{
 nav .logo{
    
     color: beige;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 20px;
     margin-top: 10px;
     font-weight: 300;
@@ -40,15 +40,15 @@ nav .logo{
 }
 nav ul li{
     display:inline-block;
-    margin: 15px 20px;
+    margin: 30px 30px;
     animation-delay: 0.5s;
 
 
 }
 nav ul li a{
-    margin: 20px;
+    margin: 35px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     color: azure;
     position: relative;
 }
@@ -57,8 +57,8 @@ nav ul li a:hover{
  transition: 0.3s;
 }
 .intro-image img{
-    width: 350px;
-    height: 365px;
+    width: 470px;
+    height: 500px;
     margin-left: 20px;
     margin-top: 0px;
     animation-delay: 10s;
@@ -71,6 +71,7 @@ nav ul li a:hover{
     top: 70px;
     left: 20px;
     width: 90%;
+    font-size: large;
 }
 .intro{
     color: azure;
@@ -159,24 +160,25 @@ nav ul li a:hover{
    
     background-color: black;
    margin-top: 60px;
+   
     
 }
  .title{
     margin-left: 200px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     color: rgba(240, 240, 237, 0.527);
 }
  .aboutme p {
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 40px;
-    padding: 10px;
+    padding: 15px;
     color: rgba(240, 240, 237, 0.527);
     background-color: rgba(68, 65, 65, 0.226);
-    border: 1.5px solid rgb(12, 11, 11);
+    border: 1.5px solid rgb(22, 22, 22);
     border-radius: 20px;
     box-shadow: 0.3px 0.1px 20px -10px rgba(233, 230, 230, 0.685);
     
@@ -190,7 +192,7 @@ nav ul li a:hover{
     margin-right: 50px;
     text-decoration: none;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 21px;
     font-weight: 600;
     cursor: pointer;
     position: relative;
@@ -214,14 +216,14 @@ nav ul li a:hover{
     
 }
 .details ul li{
-    font-size:11px;
-    line-height: 20px;
+    font-size:15px;
+    line-height: 26px;
     list-style-type: disc;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(252, 248, 244);
 }
 .details ul li span{
-    font-size:12px ;
+    font-size:18px ;
     font-weight: 500;
     color: crimson;
 
@@ -238,7 +240,7 @@ nav ul li a:hover{
 
 .services .title {
     color: rgb(252, 248, 244);
-    font-size: 20px;
+    font-size: 23px;
     font-family:Arial, Helvetica, sans-serif;
   margin-left: 60px;
   margin-top: 60px;
@@ -253,9 +255,10 @@ nav ul li a:hover{
       
 }
 .card{
-    width: 200px;
+    width: 300px;
+    height: 400px;
     
-    margin-left: 40px;
+    margin-left: 50px;
     padding: 20px;
     object-fit: cover;
     border:1px solid rgb(32, 32, 32);
@@ -273,14 +276,15 @@ nav ul li a:hover{
      
 }
 .card h2{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     padding: 20px 10px;
     color: crimson;
 
 }
 .card p{
-    font-size: 11px;
+    font-size: 17px;
+    padding :20px;
 }
 /*----------my work----------*/
 
@@ -299,6 +303,25 @@ nav ul li a:hover{
   height: 100%;
 
 }
+.layer .link{
+    width:90px;
+    height: 30px;
+    background-color:rgb(243, 13, 51);
+    position: absolute;
+    top: 190px;
+    left:100px;
+    border-radius: 10%;
+    border: 0.5px solid rgb(20, 20, 20);
+}
+.link a{
+    text-decoration: none;
+    width: 10px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin-left: 22px;
+    color: black;
+}
 
 
 
@@ -306,26 +329,28 @@ nav ul li a:hover{
 .contact{
     margin-top: 70px;
     
+    
 }
 .contact h2{
     color: azure;
     margin-left: 70px;
 }
 .message{
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
     border: 1px solid rgb(9, 9, 10);
     margin-top: 30px;
     margin-left: 120px;
     border-radius: 20px;
     position: relative;
     box-shadow: 0.1px 0.5px 40px -19px rgba(233, 230, 230, 0.685);
+    z-index: 2;
 }
 .send span{
     color: azure;
     margin-top: 80px;
     margin-left: 350px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     position: absolute;
     top: -50px;
@@ -353,7 +378,7 @@ textarea{
     
     }
     #submit{
-        width: 80px;
+        width: 90px;
        
         cursor: pointer;
         background-color: black;
@@ -401,14 +426,15 @@ textarea{
     }
     .contact-info .info{
         color: azure;
-        margin-left: 60px;
-        font-size: 13px;
+        margin-left: 45px;
+        margin-top: 38px;
+        font-size: 15px;
     }
     .contact-info .info i{
         margin-right: 20px;
     }
     #social{
-        margin-top: 40px;
+        margin-top: 50px;
         margin-left: 33px;
 
     }
@@ -421,7 +447,7 @@ textarea{
         width: 100%;
         height: 40px;
         color: beige;
-        font-size: 11px;
+        font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 300;
        background-color: rgb(21, 21, 24);
@@ -440,6 +466,10 @@ textarea{
     }
     #check{
         display: none;
+    
+    }
+    #check1{
+        display:none ;
     }
 
     @media only screen and (max-width:600px){
