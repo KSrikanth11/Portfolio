@@ -163,20 +163,33 @@ nav ul li a:hover{
    
     
 }
+.java{
+    color: aliceblue;
+    background-color: rgb(8, 8, 8);
+   
+}
+.java img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 720px;
+    top: 1090px;
+}
  .title{
     margin-left: 200px;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: 600;
-    color: rgba(240, 240, 237, 0.527);
+    color: rgba(240, 240, 237, 0.986);
 }
  .aboutme p {
+    width: 70%;
     display: inline-block;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     margin-left: 40px;
     padding: 15px;
-    color: rgba(240, 240, 237, 0.527);
+    color: rgba(255, 255, 255, 0.979);
     background-color: rgba(68, 65, 65, 0.226);
     border: 1.5px solid rgb(22, 22, 22);
     border-radius: 20px;
@@ -243,7 +256,7 @@ nav ul li a:hover{
     font-size: 23px;
     font-family:Arial, Helvetica, sans-serif;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 160px;
 
 }
 
@@ -256,7 +269,7 @@ nav ul li a:hover{
 }
 .card{
     width: 300px;
-    height: 400px;
+    height: 450px;
     
     margin-left: 50px;
     padding: 20px;
